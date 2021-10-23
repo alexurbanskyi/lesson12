@@ -1,0 +1,125 @@
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+body{
+   background-color: #252525;
+   font-family: 'Raleway', sans-serif;
+}
+.box{
+   margin: 400px auto;
+   width: 1500px;
+   height: 865px;
+   background-color: #AF7CF6;
+}
+h1{
+   text-align: center;
+   color: white;
+   padding-top: 75px;
+   font-size: 90px;
+}
+.title{
+   color: white;
+   padding-top: 30px;
+   width: 570px;
+   margin: 0 auto;
+   line-height: 25px;
+   font-size: 17px;
+   text-align: center;
+}
+.wrapper{
+   display: flex;
+   justify-content: center;
+   padding-top: 35px;
+   margin-bottom: 35px;
+}
+.card1, .card2, .card3{
+   width: 375px;
+   height: 370px;
+   background-color: gray;
+   margin: 0 15px;
+   position: relative;
+
+}
+.card1{
+   background-image: url('../img/1.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.card2{
+   background-image: url('../img/2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.card3{
+   background-image: url('../img/3.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.btn{
+   
+   text-align: center;
+   width: 200px;
+   font-size: 20px;
+   background-color: #F72B3B;
+   margin: 0 auto;
+   padding: 20px 40px;
+   color: white;
+   transition: 0.5s;
+
+}
+
+.btn:hover{
+   background-color: rgb(168, 85, 73);
+   border-radius: 10px;
+}
+
+a{
+   color: white;
+}
+.price{
+   color: white;
+   background-color: #555D67;
+   border-radius: 5px;
+   width: 60px;
+   height: 60px;
+   text-align: center;
+   padding: 5px 0; 
+   position: absolute;
+   top: 30px;
+   left: 30px;
+   line-height: 25px;
+}
+.data{
+   font-size: 32px;
+   font-weight: 700;
+
+}
+.mounth{
+   font-size: 21px;
+   padding: 5px 0;
+   font-weight: 700;
+}
+.description{
+   position: absolute;
+   bottom: 0;
+   padding-left: 25px;
+   padding-bottom: 25px;
+   padding-right: 5px;
+}
+.description_title{
+   font-size:  20px;
+   line-height: 25px;
+   font-weight: 700;
+   color: white;
+}
+.description_data{
+   color: white;
+   margin-top: 20px;
+}
+
+
